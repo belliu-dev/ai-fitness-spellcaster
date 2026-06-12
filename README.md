@@ -1,6 +1,6 @@
 # AI Fitness Coach — Setup & Run Guide
 
-## What It Does
+## Features
 - Opens your webcam in a live window
 - Draws a colour-coded skeleton over your body:
   - **Green** = joints/limbs in correct position
@@ -28,7 +28,7 @@ Press `Q` to quit.
 
 ---
 
-## Step-by-Step Setup in VSCode
+## Setup in VSCode
 
 ### 1 — Open the project folder
 1. Put both `ai_fitness_coach.py` and `requirements.txt` in the same folder (e.g. `C:\Users\You\fitness_coach\`).
@@ -49,7 +49,7 @@ source venv/bin/activate
 
 You should see `(venv)` at the start of your terminal prompt.
 
-### 3 — Install dependencies
+### 3 —  Dependencies
 ```bash
 pip install -r requirements.txt
 ```
@@ -61,7 +61,7 @@ This installs:
 
 > **macOS users**: if TTS doesn't work, run `pip install pyobjc` as well.
 
-### 4 — Run the program
+### 4 — Running
 ```bash
 python spellcasterv4_final.py
 ```
