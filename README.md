@@ -1,10 +1,10 @@
-# 🏋️ AI Fitness Coach — Setup & Run Guide
+# AI Fitness Coach — Setup & Run Guide
 
 ## What It Does
 - Opens your webcam in a live window
 - Draws a colour-coded skeleton over your body:
-  - 🟢 **Green** = joints/limbs in correct position
-  - 🔴 **Red**   = joints/limbs with a form issue
+  - **Green** = joints/limbs in correct position
+  - **Red**   = joints/limbs with a form issue
 - Detects and counts **reps** for squats and pushups
 - Pops up a **warning window** describing the issue
 - Speaks feedback aloud via **text-to-speech**
@@ -58,13 +58,12 @@ This installs:
 - `mediapipe` — Google's pose-estimation library
 - `opencv-python` — camera capture & drawing
 - `numpy` — angle calculations
-- `pyttsx3` — offline text-to-speech
 
 > **macOS users**: if TTS doesn't work, run `pip install pyobjc` as well.
 
 ### 4 — Run the program
 ```bash
-python ai_fitness_coach.py
+python spellcasterv4_final.py
 ```
 
 A window titled **"AI Fitness Coach"** will open showing your webcam feed.
@@ -83,7 +82,7 @@ A window titled **"AI Fitness Coach"** will open showing your webcam feed.
 
 ---
 
-## Jetson Nano Notes (for later)
+## Jetson Nano Notes
 When you move to the Jetson Nano:
 - Replace `cv2.VideoCapture(0)` with your CSI camera pipeline string, e.g.:
   ```python
