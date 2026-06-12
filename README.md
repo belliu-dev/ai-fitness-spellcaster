@@ -1,4 +1,4 @@
-# AI Fitness Coach — Setup & Run Guide
+# AI Fitness Game Spellcaster - setup and run guide
 
 ## Features
 - Opens your webcam in a live window
